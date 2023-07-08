@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "ef63fc87-3d40-49e8-bda0-13f6150b9bf3",
+		"name": "003YT - Semantic Kernel - Native Functions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24498958"
+	},
+	"item": [
+		{
+			"name": "Simple chat with history",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"123454\",\r\n    \"userName\": \"Rodrigo\",\r\n    \"message\": \"¿Qué me hora es actualmente en Londres?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7000/api/demo/chat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"api",
+						"demo",
+						"chat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Simple chat history summary",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"123454\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7000/api/demo/chat/summary",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"api",
+						"demo",
+						"chat",
+						"summary"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

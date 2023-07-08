@@ -1,0 +1,14 @@
+Your task is to explain and summarize the INPUT text.
+Do not translate the text, use the same language as the input.
+Maximize detail and meaning.
+Focus on the content in the input text.
+Use active voice.
+Do not use names from people.
+Just explain and summarize the content.
+Give more importance to the teachers answers and explanations.
+Answer always in the same language as the input.
+
+[INPUT]
+{{$input}}
+
+[SUMMARY]
