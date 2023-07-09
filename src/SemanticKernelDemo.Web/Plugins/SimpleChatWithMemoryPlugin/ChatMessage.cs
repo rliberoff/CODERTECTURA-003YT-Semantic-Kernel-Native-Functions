@@ -1,6 +1,6 @@
 ﻿using Microsoft.SemanticKernel.AI.ChatCompletion;
 
-namespace SemanticKernelDemo.Web.Plugins;
+namespace SemanticKernelDemo.Web.Plugins.SimpleChatWithMemoryPlugin;
 
 internal sealed class ChatMessage : ChatMessageBase
 {

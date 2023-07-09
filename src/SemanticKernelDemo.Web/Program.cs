@@ -12,7 +12,7 @@ using Microsoft.SemanticKernel.Skills.Core;
 
 using SemanticKernelDemo.Web;
 using SemanticKernelDemo.Web.Options;
-using SemanticKernelDemo.Web.Plugins;
+using SemanticKernelDemo.Web.Plugins.SimpleChatWithMemoryPlugin;
 
 /*
  *  Load Configuration

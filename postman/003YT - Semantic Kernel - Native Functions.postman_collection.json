@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"userId\": \"123454\",\r\n    \"userName\": \"Rodrigo\",\r\n    \"message\": \"¿Qué me hora es actualmente en Londres?\"\r\n}",
+					"raw": "{\r\n    \"userId\": \"123454\",\r\n    \"userName\": \"Rodrigo\",\r\n    \"message\": \"¿Qué que es GPT?\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -31,6 +31,37 @@
 						"api",
 						"demo",
 						"chat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"123454\",\r\n    \"userName\": \"Rodrigo\",\r\n    \"message\": \"¿Qué hora es en Nw York?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7000/api/demo/chat/composed",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"api",
+						"demo",
+						"chat",
+						"composed"
 					]
 				}
 			},

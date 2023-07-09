@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.Collections.ObjectModel;
 
-namespace SemanticKernelDemo.Web.Plugins;
+namespace SemanticKernelDemo.Web.Plugins.SimpleChatWithMemoryPlugin;
 
 internal sealed class InMemoryChatHistory
 {
